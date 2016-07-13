@@ -6,7 +6,7 @@
   "version": "1.0",
   
   "background": {
-    "scripts": [when_to_post/bootstrap.js],
+    "scripts": [when-to-post/bootstrap.js],
     "persistent": false
     }
 
