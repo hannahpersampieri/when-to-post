@@ -5,10 +5,14 @@
   "description": "This extension allows users to find the optimal time to post in order to reach a larger audience",
   "version": "1.0",
 
-  "browser_action": {
-    "default_icon": "icon.png",
-    "default_popup": "popup.html"
-  },
+   "page_action": {
+          "default_icon": {                   
+            "19": "icon.png",          
+            "38": "icon.png"            
+          },
+          "default_title": "When to post",     
+          "default_popup": "popup.html"       
+        }
   "permissions": [
     "activeTab",
     "https://ajax.googleapis.com/"
