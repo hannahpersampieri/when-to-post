@@ -4,10 +4,11 @@
   "name": "When to Post",
   "description": "This extension allows users to find the optimal time to post in order to reach a larger audience",
   "version": "1.0",
+  
   "background": {
-    "scripts": [bootstrap.js],
+    "scripts": [when_to_post/bootstrap.js],
     "persistent": false
-  }
+    }
 
    "page_action": {
           "default_icon": {                   
