@@ -6,4 +6,5 @@ A lot of my friends claim that there is a "best time" to post on social media in
 
 ###Version 1.0
 _Note: still a work in progress. Some front-end work has been done, now beginning to focus on the back-end, then will finalize the front end._
+
 This version will only look at the activity of the Facebook chat feature- admittedly, there are flaws to this, as many users may have Facebook open in a tab that isn't being used. In future versions, I hope to work on the acitivity feed, and also look at other apps such as Instagram.
