@@ -16,6 +16,7 @@
 "permissions": [
     "https://www.facebook.com/",
     "http://www.facebook.com/",
+    "http://graph.facebook.com/"
     "tabs",
     "storage"
   ],
