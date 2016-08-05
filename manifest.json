@@ -22,15 +22,8 @@
   ],
   
   "background": {
-    "scripts": ["bootstrap.js"],
+    "scripts": ["background.js"],
     "persistent": false
   },
-
-   "content_scripts": [
-    {
-      "matches": ["http://*.facebook.com/*", "https://*.facebook.com/*"],
-      "js": ["libs/underscore.min.js", "clean.js"]
-    }
-  ],
 
 }
