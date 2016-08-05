@@ -7,8 +7,8 @@
 
    "page_action": {
           "default_icon": {                   
-            "19": "icon.png",          
-            "38": "icon.png"            
+            "19": "icon.jpg",          
+            "38": "icon.jpg"            
           },
           "default_title": "When to post",     
           "default_popup": "popup.html"       
