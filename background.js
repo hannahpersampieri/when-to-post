@@ -17,3 +17,4 @@ function onFacebookLogin() {
                 }
             }
             chrome.tabs.onUpdated.addListener(onFacebookLogin);
+// scraping chat data... tbd
