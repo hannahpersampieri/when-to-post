@@ -17,4 +17,5 @@ function onFacebookLogin() {
                 }
             }
             chrome.tabs.onUpdated.addListener(onFacebookLogin);
-// scraping chat data... tbd
+// scraping chat data...
+//getElementsbyClassName("_55lr");
