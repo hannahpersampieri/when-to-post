@@ -1,4 +1,4 @@
-//accessing the graph API
+//getting access
 var successURL = 'https://www.facebook.com/connect/login_success.html';
 function onFacebookLogin() {
                 if (!localStorage.accessToken) {
@@ -18,4 +18,12 @@ function onFacebookLogin() {
             }
             chrome.tabs.onUpdated.addListener(onFacebookLogin);
 // scraping chat data...
-//getElementsbyClassName("_55lr");
+var onlineFriends = document.getElementsbyClassName("_55lr");
+//we need to check if the friend is actually online. if the element "_568" is blank, they are online
+var numOnline 
+for(i = 0; i < onlineFriends.length; i++){
+	if(onlineFriends[i]){ //if empty
+		numOnline++;
+	}
+}
+
