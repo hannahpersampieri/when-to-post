@@ -23,7 +23,7 @@ var onlineFriends = document.getElementsbyClassName("_55lr");
 var friendStatus = document.getElementsbyClassName("_568-");
 var numOnline = friendStatus.length;
 for(i = 0; i < friendStatus.length; i++){
-	if(friendStatus[i]){ //if empty
+	if(friendStatus[i] !== ""){ //if not empty
 		numOnline--;
 	}
 }
