@@ -27,4 +27,11 @@ for(i = 0; i < friendStatus.length; i++){
 		numOnline--;
 	}
 }
+//comparing to the max: not quite sure how to do this properly for a script running over a period of time
+if(numOnline > max){
+	max = numOnline
+	var x = new Date();
+	hourToPost = x.getHours();
+	minToPost = x.getMinutes();
+}
 
