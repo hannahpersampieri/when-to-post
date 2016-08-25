@@ -12,14 +12,14 @@
     "storage"
   ],
 
-   "page_action": {
-          "default_icon": {                   
-            "19": "icon.jpg",          
-            "38": "icon.jpg"            
-          },
-          "default_title": "When to post",     
-          "default_popup": "popup.html"       
-        }
+ "page_action": {
+    "default_icon": {                   
+      "19": "icon.jpg",          
+      "38": "icon.jpg"            
+    },
+    "default_title": "When to post",     
+    "default_popup": "popup.html"       
+  },
   
   "background": {
     "scripts": ["background.js"],
