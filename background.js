@@ -18,20 +18,22 @@ function onFacebookLogin() {
             }
             chrome.tabs.onUpdated.addListener(onFacebookLogin);
 // scraping chat data...
-var onlineFriends = document.getElementsbyClassName("_55lr");
-//we need to check if the friend is actually online. if the element "_568" is blank, they are online
-var friendStatus = document.getElementsbyClassName("_568-");
-var numOnline = friendStatus.length;
-for(i = 0; i < friendStatus.length; i++){
-	if(friendStatus[i] !== ""){ //if not empty
-		numOnline--;
+var max = 0;
+while(true){
+	var onlineFriends = document.getElementsbyClassName("_55lr");
+	//we need to check if the friend is actually online. if the element "_568" is blank, they are online
+	var friendStatus = document.getElementsbyClassName("_568-");
+	var numOnline = friendStatus.length;
+	for(i = 0; i < friendStatus.length; i++){
+		if(friendStatus[i] !== ""){ //if not empty
+			numOnline--;
+		}
 	}
-}
-//comparing to the max: not quite sure how to do this properly for a script running over a period of time
-if(numOnline > max){
-	max = numOnline
-	var x = new Date();
-	hourToPost = x.getHours();
-	minToPost = x.getMinutes();
-}
-
+	//comparing to the max: not quite sure how to do this properly for a script running over a period of time
+	if(numOnline > max){
+		max = numOnline
+		var x = new Date();
+		hourToPost = x.getHours();
+		minToPost = x.getMinutes();
+	}
+} //maybe set a timeout
