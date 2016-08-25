@@ -20,9 +20,9 @@ function onFacebookLogin() {
 // scraping chat data...
 var max = 0;
 while(true){
-	var onlineFriends = document.getElementsbyClassName("_55lr");
+	var onlineFriends = document.getElementbyClassName("_55lr");
 	//we need to check if the friend is actually online. if the element "_568" is blank, they are online
-	var friendStatus = document.getElementsbyClassName("_568-");
+	var friendStatus = document.getElementbyClassName("_568-");
 	var numOnline = friendStatus.length;
 	for(i = 0; i < friendStatus.length; i++){
 		if(friendStatus[i] !== ""){ //if not empty
