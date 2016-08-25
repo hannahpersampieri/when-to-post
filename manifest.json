@@ -7,23 +7,24 @@
   "permissions": [
     "https://www.facebook.com/",
     "http://www.facebook.com/",
-    "http://graph.facebook.com/"
+    "http://graph.facebook.com/",
     "tabs",
     "storage"
   ],
 
- "page_action": {
-    "default_icon": {                   
-      "19": "icon.jpg",          
-      "38": "icon.jpg"            
+   "page_action": {
+      "default_icon": {                   
+        "19": "icon.jpg",          
+        "38": "icon.jpg"            
+      },
+      "default_title": "When to post",     
+      "default_popup": "popup.html"       
     },
-    "default_title": "When to post",     
-    "default_popup": "popup.html"       
-  },
+
   
   "background": {
     "scripts": ["background.js"],
     "persistent": false
-  },
+  }
 
 }
