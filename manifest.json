@@ -4,6 +4,13 @@
   "name": "When to Post",
   "description": "This extension allows users to find the optimal time to post in order to reach a larger audience",
   "version": "1.0",
+  "permissions": [
+    "https://www.facebook.com/",
+    "http://www.facebook.com/",
+    "http://graph.facebook.com/"
+    "tabs",
+    "storage"
+  ],
 
    "page_action": {
           "default_icon": {                   
@@ -13,13 +20,6 @@
           "default_title": "When to post",     
           "default_popup": "popup.html"       
         }
-"permissions": [
-    "https://www.facebook.com/",
-    "http://www.facebook.com/",
-    "http://graph.facebook.com/"
-    "tabs",
-    "storage"
-  ],
   
   "background": {
     "scripts": ["background.js"],
