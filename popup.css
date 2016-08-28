@@ -1,14 +1,15 @@
-
 body {
-	display: flex;
-	flex-direction: column;
-	font-family: 'PT Sans', Arial, sans-serif;
-	height: 100%;
+font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+font-size: 100%;
 }
-status {
-    font-size: 25px;
-    color: #0039FF;
-  }
+
+#status {
+/* avoid an excessively wide status text */
+white-space: pre;
+text-overflow: ellipsis;
+overflow: hidden;
+max-width: 400px;
+}
   
 .popup {
   background: 	#FFFFFF;
