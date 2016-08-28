@@ -1,0 +1,30 @@
+
+body {
+	display: flex;
+	flex-direction: column;
+	font-family: 'PT Sans', Arial, sans-serif;
+	height: 100%;
+}
+status {
+    font-size: 25px;
+    color: #0039FF;
+  }
+  
+.popup {
+  background: 	#FFFFFF;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.error-message {
+	font-size: 12px;
+	background: #e64b3f;
+	color: #fff;
+	padding: 5px;
+	text-align: center;
+	margin-bottom: 20px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
