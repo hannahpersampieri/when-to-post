@@ -35,5 +35,6 @@ while(true){
 		var x = new Date();
 		hourToPost = x.getHours();
 		minToPost = x.getMinutes();
+		console.log(hourToPost":"minToPost);
 	}
 } //maybe set a timeout
