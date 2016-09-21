@@ -35,6 +35,8 @@ while(true){
 		var x = new Date();
 		hourToPost = x.getHours();
 		minToPost = x.getMinutes();
-		console.log(hourToPost, ":", minToPost);
+		document.clear();
+		document.write("<h1> Best time: </h1>");
+		document.write(hourToPost+":"+minToPost);
 	}
 } //maybe set a timeout
